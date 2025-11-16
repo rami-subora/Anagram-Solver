@@ -2,6 +2,7 @@
 This is a simple program to solve an anagram problem 
 
  -------------------- The Problem --------------------
+ 
 We are looking for derived anagrams in a dictionary.
 Derived anagram is a word that consists of all the letters from the base word plus one more letter, rearranged ex. sail→nails → aliens.
 Write a code in C (working in terminal) that will accept two arguments:
@@ -17,6 +18,7 @@ The dictionary may consist of up to one million words.
 There may be more than one longest chain starting from a given word, the program should find all of them.
 
 -------------------- Algorithms and thought proccess --------------------
+
 1. Algorithms used:
 
   1 - Dynamic Programming (or Memoization): A technique for solving complex problems by breaking them down into smaller, overlapping sub-problems and saving the results.
